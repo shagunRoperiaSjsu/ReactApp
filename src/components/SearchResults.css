@@ -1,0 +1,40 @@
+/* styles/SearchResults.css */
+
+.results-table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove spacing between cells */
+    margin: 20px auto; /* Center the table with margin */
+    max-width: 800px; /* Limit width for better readability */
+}
+
+.results-table th,
+.results-table td {
+    border: 1px solid #ddd; /* Light border for table cells */
+    padding: 12px; /* Padding inside cells */
+    text-align: left; /* Left align text */
+}
+
+.results-table th {
+    background-color: #007bff; /* Header background color */
+    color: white; /* Header text color */
+    font-weight: bold; /* Bold text */
+}
+
+.results-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray for even rows */
+}
+
+.results-table tr:hover {
+    background-color: #f1f1f1; /* Change background on hover */
+}
+
+.results-table td {
+    vertical-align: middle; /* Align content in the middle */
+}
+
+/* Optional: Add media queries for responsiveness */
+@media (max-width: 600px) {
+    .results-table {
+        font-size: 14px; /* Smaller font size for mobile */
+    }
+}
